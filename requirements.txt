@@ -22,3 +22,16 @@ slowapi
 
 # Data Validation (FastAPI dependency)
 pydantic
+
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+python-dotenv
+python-jose[cryptography]
+bcrypt
+passlib
+openai
+groq
+slowapi
+pydantic
