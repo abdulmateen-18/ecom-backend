@@ -25,7 +25,7 @@ app.add_middleware(SlowAPIMiddleware)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # for now (later restrict)
+    allow_origins=["*"],  # for now (later restrict)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
