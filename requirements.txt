@@ -32,6 +32,6 @@ python-jose[cryptography]
 bcrypt
 passlib
 openai
-groq
+groq==1.2.0
 slowapi
 pydantic
