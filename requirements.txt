@@ -1,6 +1,24 @@
-fastapi==0.104.1
-uvicorn==0.24.0
-sqlalchemy==2.0.23
-pydantic==2.5.0
-pydantic-settings==2.1.0
-python-dotenv==1.0.0
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+psycopg2-binary          # PostgreSQL driver — required for Supabase
+
+# Environment
+python-dotenv
+
+# Authentication
+python-jose[cryptography]
+bcrypt
+passlib
+
+# AI / OpenAI
+openai
+
+# Rate Limiting
+slowapi
+
+# Data Validation (FastAPI dependency)
+pydantic
